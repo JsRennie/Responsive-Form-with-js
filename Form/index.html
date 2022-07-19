@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Code with Rennie</h1>
+    <div class="container">
+      <form action="" method="post">
+        <div id="formfield">
+          <input type="text" name="text" class="text" size="50" placeholder="Name" required>
+          <input type="text" name="text" class="text" size="50" placeholder="Email" required>
+          <input type="text" name="text" class="text" size="50" placeholder="Optional Field" required>
+        </div>
+        <input type="submit" name="submit" value="submit">
+      </form>
+      <div class="controls">
+        <button class="add" onclick="add()" >
+          <i class="fa fa-plus">Add</i>
+        </button>
+        <button class="add" onclick="remove()" >
+          <i class="fa fa-minus">Remove</i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
